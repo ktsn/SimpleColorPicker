@@ -6,6 +6,7 @@
     padding: 10px;
     position: absolute;
     text-align: center;
+    width: 220px;
     z-index: 1000;
 }
 
@@ -21,7 +22,7 @@
 .sc-button {
     border-radius: 15px;
     height: 30px;
-    margin: 0 3px;
+    margin: 3px 3px 0 3px;
     outline: none;
     width: 30px;
 }
