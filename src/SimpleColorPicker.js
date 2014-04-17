@@ -117,6 +117,9 @@
         _onClickColorButton: function(e) {
             console.log("select color : " + e.target.value);
             this.input_el.value = e.target.value;
+            var event = document.createEvent("UIEvents");
+            event.initUIEvent("change", true, true);
+            this.input_el.dispatchEvent(event);
             this.hide();
         }
     });
