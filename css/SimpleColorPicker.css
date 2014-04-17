@@ -1,0 +1,27 @@
+.sc-picker {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+
+.sc-picker.sc-appear {
+    display: inline-block;
+    opacity: 1;
+}
+
+.sc-picker p {
+    margin: 0 0 10px 0;
+}
+
+.sc-button {
+    border-radius: 15px;
+    height: 30px;
+    margin: 0 3px;
+    outline: none;
+    width: 30px;
+}
